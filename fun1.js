@@ -1,5 +1,5 @@
-const a = number(prompt("enter the number"));
-const b = number(prompt("enter number"));
+const a = Number(prompt("enter the number"));
+const b = Number(prompt("enter number"));
 function multification(a, b) {
   return a * b;
 }
