@@ -1,9 +1,9 @@
 let i;
 let a = Number(prompt("enter number 3"));
-function multifaction(a) {
-  for (let i = 0; i <= 10; i++) {
-    return a * i;
-  }
+function multifaction(a, i) {
+  return a * i;
 }
-const res = multifaction(a);
-console.log(res);
+for (let i = 1; i < 10; i++) {
+  const res = mul(a, i);
+  console.log(res);
+}
